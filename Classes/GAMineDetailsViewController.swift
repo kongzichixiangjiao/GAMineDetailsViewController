@@ -13,5 +13,6 @@ open class GAMineDetailsViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.orange
         print("GAMineDetailsViewController")
+        print("0.0.2")
     }
 }
