@@ -8,9 +8,9 @@
 
 import UIKit
 
-@objc class GATarget_MineDetails: NSObject {
+@objc class Target_MineDetails: NSObject {
     
-    @objc func Action_Extension_ViewController(_ params:NSDictionary) -> UIViewController {
+    @objc func Action_Extension_GAMineDetailsViewController(_ params:NSDictionary) -> UIViewController {
         if let callback = params["callback"] as? (String) -> Void {
             callback("success")
         }
@@ -19,7 +19,7 @@ import UIKit
         return vc
     }
     
-    @objc func Action_Category_ViewController(_ params:NSDictionary) -> UIViewController {
+    @objc func Action_Category_GAMineDetailsViewController(_ params:NSDictionary) -> UIViewController {
         
         if let block = params["callback"] {
             
