@@ -16,3 +16,4 @@ open class GAMineDetailsViewController: UIViewController {
         print("0.0.2")
     }
 }
+
